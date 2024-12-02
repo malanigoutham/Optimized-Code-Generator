@@ -1,0 +1,4 @@
+Flask==2.3.2
+Flask-Cors==3.0.10
+langchain==0.0.295
+ctransformers==0.2.13

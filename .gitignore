@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+
+# Testing
+/coverage
+
+# Build and production output
+/build
+/dist
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore backend-specific files
+backend/codellama-7b-instruct/
+
+# Ignore package lock files (if needed, though reconsider ignoring them in team projects)
+package-lock.json

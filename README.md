@@ -31,7 +31,6 @@ Frontend (React) -> Flask Backend -> LangChain -> CTransformers -> CodeLLaMA
 
 ## Prerequisites
 - Python 3.8 or later
-- Node.js 16 or later
 - React (via create-react-app or equivalent setup)
 - Flask and required Python dependencies
 - CodeLLaMA model file

@@ -21,7 +21,8 @@ The **Optimized Code Generator** is a 2-tier application designed to generate hi
 
 ## Architecture
 ```
-Frontend (React) -> Flask Backend -> LangChain -> CTransformers -> CodeLLaMA
+#Architecture Diagram of the project
+![Architecture Diagram](./Assets/Architecture.jpg)
 ```
 - **React**: Collects user inputs and sends them to the backend.
 - **Flask**: Processes the request and interacts with LangChain and CTransformers.

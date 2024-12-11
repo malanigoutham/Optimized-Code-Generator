@@ -20,10 +20,9 @@ The **Optimized Code Generator** is a 2-tier application designed to generate hi
   - Supports various programming languages and time complexities.
 
 ## Architecture
-```
 #Architecture Diagram of the project
 ![Architecture Diagram](./Assets/Architecture.jpg)
-```
+
 - **React**: Collects user inputs and sends them to the backend.
 - **Flask**: Processes the request and interacts with LangChain and CTransformers.
 - **LangChain**: Formats the prompt for the CodeLLaMA model.

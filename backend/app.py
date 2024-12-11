@@ -11,7 +11,7 @@ CORS(app)
 
 # Initialize the CTransformers model globally
 llm = CTransformers(
-    model='C:/Users/RAJKIRAN REDDY/Desktop/ps-proj/backend/codellama-7b-instruct.Q4_K_M.gguf',
+    model=r"D:/ps project/backend/codellama-7b-instruct.Q4_K_M.gguf",
     model_type='llama',
     config={'max_new_tokens': 500, 'temperature': 0.01}
 )
